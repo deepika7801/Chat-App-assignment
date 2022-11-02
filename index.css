@@ -1,0 +1,126 @@
+body {
+  background-image: url(../assets/background.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.chat-page {
+  background-color: rgb(164, 224, 239);
+  display: none;
+  flex-direction: column;
+  height: 95%;
+  margin: 0px auto;
+  width: 70%;
+}
+.chat-page-heading,
+.chat-heading {
+  align-items: center;
+  background-color: rgb(41, 141, 203);
+  color: white;
+  display: flex;
+  font-size: 28px;
+  font-weight: bold;
+  height: 15%;
+  justify-content: center;
+}
+.chat-page-heading {
+  background-color: #3cc9ed;
+}
+#current-date {
+  font-size: 15px;
+  font-weight: bold;
+}
+.join-button {
+  background-color: rgb(28, 187, 240);
+  border-color: white;
+  border-radius: 10px;
+  color: white;
+  font-size: 18px;
+  height: 8%;
+  width: 10%;
+}
+.join-page {
+  background-color: rgb(164, 224, 239);
+  display: flex;
+  flex-direction: column;
+  height: 95%;
+  margin: 0px auto;
+  width: 70%;
+}
+
+.input-box {
+  align-items: center;
+  display: flex;
+  height: 10%;
+  justify-content: space-between;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+.message-container {
+  background-image: url(../assets/chatImage.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 85%;
+}
+
+.message-input-box {
+  border-radius: 5px;
+  font-size: 19px;
+  height: 35px;
+  width: 65%;
+}
+.message-section {
+  height: 88%;
+  overflow-y: auto;
+  padding: 5px;
+  row-gap: 25px;
+}
+
+.name-input-box {
+  border-radius: 5px;
+  font-size: 17px;
+  height: 8%;
+  width: 26%;
+}
+.others-message {
+  align-self: flex-start;
+  background-color: rgb(225, 143, 229);
+  border: 3px solid white;
+  border-radius: 8px;
+  padding: 5px;
+  width: 20%;
+  word-wrap: break-word;
+}
+
+#output {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+.send-button {
+  background-color: black;
+  border-radius: 6px;
+  color: white;
+  font-size: 20px;
+  height: 31px;
+  width: 15%;
+}
+.username {
+  align-items: center;
+  background-image: url(../assets/joinPage.gif);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  height: 93%;
+  justify-content: center;
+  row-gap: 25px;
+  padding-left: 25%;
+}
+.your-message {
+  align-self: flex-end;
+  background-color: rgb(131, 207, 241);
+  border: 3px solid white;
+  border-radius: 8px;
+  padding: 5px;
+  width: 20%;
+  word-wrap: break-word;
+}
